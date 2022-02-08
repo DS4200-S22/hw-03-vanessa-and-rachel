@@ -1,0 +1,25 @@
+body {
+    font-family: Arial
+}
+
+h1 {
+    text-align: center
+}
+
+p {
+    padding: 10
+}
+
+
+.chart {
+    border: 2px solid black
+}
+
+
+.square {
+    fill:rgb(240, 162, 229)
+}
+
+.circle {
+    fill:rgb(240, 162, 229)
+}
