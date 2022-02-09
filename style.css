@@ -16,10 +16,27 @@ p {
 }
 
 
+
 .square {
     fill:rgb(240, 162, 229)
 }
 
 .circle {
-    fill:rgb(240, 162, 229)
+    fill:lightblue
 }
+
+
+.shapes {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.square:hover {
+    fill: red;
+}
+
+.circle:hover {
+    fill: lightgreen;
+  }
